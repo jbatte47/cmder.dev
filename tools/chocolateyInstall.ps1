@@ -1,5 +1,5 @@
 ﻿$packageName = 'battecode.cmder.dev'
-$url = 'https://github.com/jbatte47/cmder.dev/releases/download/1.1.3-zeta/cmder.7z'
+$url = 'https://github.com/jbatte47/cmder.dev/releases/download/1.1.3.1-zeta/cmder.7z'
 
 try { 
   $installDir = "$(Join-Path $env:USERPROFILE AppData\Local\cmder)" 

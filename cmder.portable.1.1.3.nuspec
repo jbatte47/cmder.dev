@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>battecode.cmder.dev</id>
+        <version>1.1.3</version>
+        <title>Cmder w/ Tweaks by Batte</title>
+        <authors>Samuel Vasko</authors>
+        <owners>jbatte47</owners>
+        <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>https://github.com/jbatte47/cmder.dev</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/jbatte47/cmder.dev/master/icons/icon_48.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Cmder is a software package created out of pure frustration over the absence of nice console emulators on Windows. It is based on amazing software, and spiced up with the Monokai color scheme and a custom prompt layout. Looking sexy from the start.</description>
+        <summary>Portable console emulator for Windows</summary>
+        <releaseNotes>* Added git prompt
+		* Spaces in path are now tolerated
+		* Home path is set correctly
+		* Much better aliases
+		* Changed powershell/cmd shortcut to shift + alt + #
+		* Vim path is now loaded
+		* Smarter aliases</releaseNotes>
+        <copyright>Copyright (c) 2013 Samuel Vasko</copyright>
+        <tags>portable console command-line terminal</tags>
+        <dependencies>
+            <dependency id="7zip.commandline" />
+            <dependency id="git.install" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="tools\chocolateyInstall.ps1" target="tools\chocolateyInstall.ps1" />
+    </files>
+</package>
